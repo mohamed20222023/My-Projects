@@ -1,0 +1,45 @@
+
+.option-box .gear-check,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active{background-color: #E41B17}
+
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.copyright span,
+.footer h2,
+.testimonials span{color:#E41B17 }
+
+
+.navbar-nav > li > .dropdown-menu{border-top: 3px solid #E41B17}
+
+
+.testimonials .carousel-indicators li,
+.testimonials .carousel-indicators .active,
+.option-box .color-box{border: 3px solid #E41B17}
+
+
+.footer .icones li img,
+.content img,
+.footer .work{box-shadow:2px 2px 10px #E41B17}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

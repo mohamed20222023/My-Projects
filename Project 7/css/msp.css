@@ -1,0 +1,350 @@
+/*
+color:
+#f9320b  main color orange
+#141f31  black blue
+#7c8cac  paragraph
+#f9f8ff  background
+#ffd0c6  border color
+progressbar color
+1- #f9320b
+2- #7f72fb
+3- #ed3ce4
+4- #74f95f
+*/
+
+body{ margin: 0; box-sizing: border-box;}
+
+.container{margin: 0 10% 0 10% ;}
+
+
+/*Start  NavBar*/
+nav {
+    margin: 20px 20px 50px 20px;
+    text-align: center;
+    border-radius:50px;
+    box-shadow: 5px 5px 20px #d5d0d0;
+    padding: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+nav .left{
+    border: 2px solid;
+    margin: 0.5% 15% 0 2% ;
+    padding: 2px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration:none;
+    color: #7c8cac;
+    margin-left: 2%;
+    margin-top: 1%
+}
+
+nav a:hover{color:#f9320b }
+
+nav .right{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*End Section NavBar*/
+
+
+/*Start header*/
+header{margin-bottom:50px}
+
+header .linee{position: relative;}
+
+header .left2{
+    height: 100px;
+    border-top:4px solid #ffd0c6;
+    width: 65%;
+    transform: translate(10px, 423px);
+}
+
+header .right2{
+    width: 100%;
+    height: 450px;
+    transform-origin: left;
+    transform: translate(65% , 399px) rotate(-27deg);
+    border-top: 4px solid #ffd0c6;
+}
+
+header .text{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 150px;
+}
+
+header .text .big{font-size:25px;   font-weight: bold}
+    
+header h1{font-size: 50px;   margin:5px 0}
+
+header .text p{width: 80%}
+
+header .text button{
+    border-radius: 50px;
+    outline: none;
+    background: none;
+    border: 0;
+    color: white ;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 150px ;
+    height: 50px;
+    cursor:pointer
+}
+
+header .text button:active{font-size: 12px}
+
+header .text .first{ margin-right:5%}
+
+header .text .second{background: #141f31}
+
+header .image{width:24%;   top: 25%;   position: absolute;    left: 65%;}
+
+header .image img{
+    height: 400px ;
+    width: 400px ;
+    border-radius: 50%;
+    padding: 3px;
+    border : 1px solid #eee;
+    box-shadow: 20px 20px 30px #b2afaf;
+}
+/*End header*/
+
+
+/*Start Section About Me*/
+.about-me {margin:120px 0 50px 0;}
+
+.about-me .image{
+    width: 35%;
+    height: 500px;
+    margin-top: 35px;
+    margin-left: 13%;
+    padding: 3px;
+    border: 2px solid #EEE;
+}
+
+.about-me .image:hover button:active{font-size: 15px }
+
+.about-me .image img{width:100%;  height:100%}
+
+.about-me .text{width: 45%;}
+
+.about-me .text h2{font-size:35px}
+
+.about-me .text .progress span{color:black;   margin-top:20px}
+
+.about-me .text .progress .fa-code{margin-top: 20px}
+
+.about-me .text .progress .fa-tv{color:#7f72fb;   margin-top:20px}
+
+.about-me .text .progress .fa-link{color:#ed3ce4;    margin-top:20px}
+
+.about-me .text .progress .fa-project-diagram{ color:#74f95f;   margin-top:20px}
+
+.about-me .text .progress .progress-bar1 , .progress-bar2 , .progress-bar3 , .progress-bar4 {
+    margin: 10px 0;
+    height: 8px ;
+    width: 100%;
+    background: #EEE;
+    border-radius: 50px;
+    }
+    
+.progress-bar1 div{
+    height: 100% ;
+    width: 80% ;
+    border-radius: 50px;
+}
+
+.progress-bar2 div{
+    height: 100% ;
+    width: 65% ;
+    background: #7f72fb;
+    border-radius: 50px;
+}
+
+.progress-bar3 div{
+    height: 100% ;
+    width: 45% ;
+    background: #ed3ce4;
+    border-radius: 50px;
+}
+
+.progress-bar4 div{
+    height: 100% ;
+    width: 55% ;
+    background: #74f95f;
+    border-radius: 50px;
+}
+/*End Section About Me*/
+
+
+/*Start Section My work*/
+.my-work{
+    padding: 70px 0 100px 0 ;
+    border-top: 3px solid #ffd0c6;
+    border-bottom: 3px solid #ffd0c6;
+    border-top-left-radius: 100px;
+    margin: 100px 0;
+}
+
+.my-work .container{text-align:center;  margin:0 0 0 22%;}
+
+.my-work h2{text-align:center;  margin:35px 35px 35px -200px;  font-size:35px}
+
+.border{
+    width: 93px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 6px;
+    line-height: 5px;
+}
+
+.my-work .line , .white-icon , .orange-icon{ width:14%;}
+
+.my-work .line{
+    height: 8px ;
+    width: 14%;
+    background: #ffd0c6;
+    margin-top: 55px;
+}
+
+.my-work .white-icon{
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 50%;
+    border:2px dashed #ffd0c6;
+    margin: auto;
+    color: #ffa491 !important;
+}
+
+.border1{
+    width: 94px;
+    height: 99px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 6px;
+    line-height: 5px;
+}
+
+ .orange-icon{
+    color: white;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 50%;
+    border:2px dashed white;
+    margin: auto;
+ }
+ 
+.border1 p{ font-size:20px;  margin-top:110px;  color:black;}
+/*End Section My work*/
+
+
+/*Start Section Experts*/
+.experts{ margin:50px 0 ;}
+
+.experts .container h2{text-align:center;   font-size:40px;}
+
+.experts .container div {
+    width: 28%;
+    margin: 10px;
+    padding: 50px 15px;
+    text-align: center;
+    transition: all 1.5s ease;
+    
+}
+
+.experts .container div:hover{
+ background: #f9320b;
+ color: white !important;
+}
+
+.experts .container div:hover p{color: white;}
+
+.experts .container div:hover h3{color: white;}
+
+.experts .container div:hover .fa-code{color: white !important}
+
+.experts .container div:hover button {color: white !important ; border-color: white}
+
+.experts .container .fa-code{ font-size: 50px}
+
+.experts .container button{
+    outline: none;
+    background: none;
+    border: 2px solid #f9320b;
+    border-radius: 50px;
+    padding: 8px 14px;
+}
+
+.experts .container button:active , .experts .container .active{color:white}
+    
+.experts .container button:hover{ cursor:pointer}
+/*End Section Experts*/
+
+
+/*Start My Frame Work*/
+.float-left{float: left}
+
+.float-right{float: right}
+
+.overflow{overflow: hidden}
+
+ nav .left , nav .active , nav a:active , .about-me .text .progress .fa-code ,
+ .my-work .white-icon , .experts .container .fa-code {color: #f9320b}
+ 
+nav .right , header .text .first , .progress-bar1 div ,  .orange-icon ,
+.experts .container button:active , .experts .container .active , .border1 {background: #f9320b}
+
+h1 , h2 , h3{color: #141f31}
+
+header , .my-work , .experts .container div { background:#f9f8ff}
+
+nav , header .left2 , .about-me , .border , .my-work .white-icon ,
+header .right2{background: white}
+
+span{ color: #f9320b}
+
+p{color:#7c8cac;  line-height:25px}
+
+/*End My Frame Work*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

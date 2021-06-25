@@ -1,0 +1,88 @@
+
+img {
+	width: 150px ; 
+	height: 150px ;
+}
+
+.image{
+	width: 20%;
+	padding: 2.5%;
+}
+
+.text{
+	font-size: 25px ; 
+	width: 70%;
+	padding: 2.5%;
+}
+
+p {color: #CCC}
+
+.container {
+	overflow: hidden;
+	margin: 16%;
+}
+
+article{
+	float: left;
+}
+
+h1 {
+	color: black;
+	font-size: 30px !important;
+	margin: 5px 0 0 5px ;
+}
+
+#test1 , #test2 , #test3 , #test4 {
+	border-bottom: 2px solid #EEE ;
+	border-right: 2px solid #EEE ;
+	border-left: 2px solid #EEE ;
+	border-top: 4px solid #0ae2ec ;
+}
+
+#test2 , #test3 , #test4{display: none}
+
+#test1{display: block}
+
+button {
+	font-size: 30px;
+	width: 20%;
+	height: 80px;
+	border: none; 
+	background: #EEE;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	outline: none;
+	color: #AAA;
+}
+
+button:last-child{
+	margin: 0;
+}
+
+button:hover{
+	background: #0ae2ec;
+	color: white;
+	cursor: pointer;
+}
+
+.left{
+	float: left;
+	margin-right: 6.6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

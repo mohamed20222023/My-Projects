@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*start header*/
+.container{
+    margin: 0 15%;
+    z-index: 1000;
+}
+
+
+.header{
+    background-image: url("images/banner1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height:28.9em;
+    font-size: 25px;
+}
+/*start navbar*/
+
+.nav {
+    z-index: 1000;
+    overflow: hidden;
+}
+ul{
+    list-style-type:none;
+    color: white;
+}
+
+
+ul li{
+    padding: 50px 0 50px 25px;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+}
+.left {float: left;}
+
+/*end navbar*/
+h1{
+    color: white;
+    text-align: center;
+}
+
+.all{
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.55);
+    padding-top: 90px;
+    z-index: 5;
+}
+
+.all div {
+    float: left;
+    width: 30%;
+    margin: 50px 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.first , .second {
+    border-right: 2px solid rgba(255, 255, 255, 0.55);
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+span{color:#6cc091 ;}
+
+p{color: rgb(143 138 138 / 55%);}
+
+.button1{
+    background: none;
+    border: 2px solid #6cc091;
+    border-radius: 20px;
+    padding: 10px;
+    color: #6cc091;
+    width: 20%;
+    margin: 1% 40%;
+    outline: none;
+    cursor: pointer;
+}
+/*end header*/
+
+/*start body*/
+.body{
+    text-align: center;
+    padding-top: 7%;
+    overflow: hidden;
+}
+
+.left1{
+    float: left;
+    width: 50%;
+}
+
+img{
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid #EEe;
+    margin-bottom: 25px;
+}
+
+h3{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.p {
+    margin-bottom: 30px;
+}
+
+.b {
+    background: none;
+    border: 2px solid #6cc091;
+    border-radius: 20px;
+    padding: 10px;
+    color: #6cc091;
+    width: 40%;
+    outline: none;
+    cursor: pointer;  
+}
+
+/*end body*/
+
+/*start footer*/
+.footer {
+    background-color: #6cc091;
+    margin-top: 7%;
+}
+
+form{
+    padding: 5% 8% 3% 8%;
+    overflow: hidden;
+}
+
+.h{
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+}
+
+input{
+    background:none;
+    border: none;
+    outline: none;
+    border: 2px solid #8dcca9;
+}
+
+::placeholder{
+    color: #EEE;
+}
+
+.left2{
+    float: left;
+    width: 50%;
+    margin: 20px 0;
+}
+
+.left2 input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+textarea{
+    width: 95%;
+    height: 200px;
+    background:none;
+    border: none;
+    outline: none;
+    border: 2px solid #8dcca9;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+}
+.submit{
+    background: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    width: 20%;
+    margin: 5% 40%;
+    outline: none;
+    cursor: pointer;
+}
+
+/*end footer*/

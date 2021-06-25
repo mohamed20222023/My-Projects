@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Learn Java Script</title>
+	<link rel="stylesheet" href="Css.css">
+</head>
+<body>
+	<section class="container" id="container">
+		<section class="toDo">
+			<h1>Work To-Dos</h1>
+			<p>Enter text intothe input to add items to your list (max. 28 characters).</p>
+			<p>Click the item to markit as complete.</p>
+			<p>Click the "X" to remove the item from your list.</p>
+		</section>
+		<form name="myForm">
+			<section class="input">
+				<input type="text" id="text" name="text" class="input1" placeholder="New item..." maxlength="28">
+				<div class="pencil" id="pencil" onclick="showitem()"><i class="fas fa-pencil-alt"></i></div>
+			</section>  
+		</form>
+		
+	</section>
+	<script src="JavaScript.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+</body>
+</html>

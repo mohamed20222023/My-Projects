@@ -1,0 +1,188 @@
+body {padding-top: 70px ;}
+
+h1,h2,h3,h4,.lead,.h1 {font-family: 'Lobster', cursive;}
+
+/*Main NavBar*/
+.navbar{  min-height: 70px ;}
+/* Brand */
+.navbar-inverse .navbar-brand{color: #BBB;  font-size: 30px ; line-height: 40px ;}
+/*Active Link*/
+
+/*Normal Link*/
+.navbar-inverse .navbar-nav > li > a{ color: #BBB; padding-top: 25px ; padding-bottom: 25px ;  font-size: 16px ;}
+/*DrobDown Link*/
+.navbar-nav > li > .dropdown-menu{background: #333;min-width: 200px ;}
+
+.dropdown-menu > li > a{ color: #FFF; padding: 6px 20px ; transition: padding .5s ease;}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {color: #FFF; padding-left: 25px }
+
+.navbar-right .dropdown-menu{ left: 0;right: auto;}
+
+/*NavBar Toggle*/
+.navbar-toggle{  margin-top: 18px }
+/*End Nav Bar*/
+
+
+/*Start About Us*/
+
+
+/*Start Breadcrumb*/
+
+.head{
+    background: #f5f5f5;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px
+    }
+    
+.head .breadcrumb{
+    padding: 10px 0 ;
+    margin: 0
+}
+
+/*End Breadcrumb*/
+
+/*Start Section About Us*/
+
+.about-us{
+    padding: 70px 0;
+}
+.about-us h1{
+    font-size: 62px ;
+    font-weight: bold;
+    letter-spacing: -3px
+}
+.about-us hr{
+    width: 80%;
+}
+
+.about-us p{
+    line-height: 1.8
+}
+
+.about-us img{
+    height: 400px ;
+    width: 100%;
+}
+
+/*End Section About Us*/
+
+/*Start Section Features*/
+
+.features{
+    padding: 50px 0;
+}
+.features h2{
+    font-size: 35px;
+    font-weight: bold
+}
+.features p{
+    padding-top: 10px ;
+    line-height: 1.8;
+    padding-bottom: 20px ;
+}
+
+/*End Section Features*/
+
+/*Start Section CEO*/
+
+.ceo{
+    background: #EEE;
+    padding: 50px 0 0 0; 
+}
+.ceo h2{
+    font-size: 40px ;
+    font-weight: bold;
+    margin-bottom: 30px ;
+}
+.ceo p{
+    line-height: 1.8
+}
+.ceo button{
+    display: block;
+    width: 100%;
+    outline: none;
+    letter-spacing: 4px;
+    margin: 30px 0 0 0 ;
+    margin-bottom: 20px;
+}
+
+@media(max-width:767px){
+    .about-us{padding: 30px 0}
+    .features{padding-bottom: 0}
+    .ceo button{
+        margin-bottom: 20px
+    }
+    
+}
+/*End Section CEO*/
+
+/*End About Us*/
+
+
+
+/*Start FAQ*/
+
+.panel-group{
+    padding: 50px 0;
+}
+.panel-group h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: -2px
+    }
+    
+.panel-group hr{width: 70%}
+.panel-group p{ font-size: 25px ; margin-bottom: 25px }
+.panel-group .panel-heading a:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444;
+}
+
+.panel-group .panel-heading a.collapse:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: right;
+    color: #444;    
+}
+
+/*Start FAQ*/
+
+
+
+/*Start Sectio Footer*/
+.footer{  background: #111; color: #AAA; padding-top: 20px ;}
+
+.footer h2{  margin-top: 50px ;  margin-bottom: 20px;}
+
+.footer .three-columns{  overflow: hidden;}
+
+.footer .three-columns li{ float: left; width: 33.333%; padding: 12px ;}
+
+.footer .icones{ overflow: hidden; margin-top: 10px ; margin-bottom: 20px ; }
+
+.footer .icones li{  float: left;  margin: 3px}
+
+.footer .icones li img{  opacity: 0.6;  transition: all 0.3s ease-in-out; border-radius: 50%;}
+
+.footer .icones li img:hover{ opacity: 1;}
+
+.content{ overflow: hidden; margin-top: 20px ;}
+
+.content img{ border-radius: 50%;}
+
+.content a{ float: left; width: 30%;}
+
+.content .text{ float: left;  width: 70%}
+
+.content .text h3{  margin-top: 0}
+
+.footer .work{  border-radius: 50%;  margin: 5px;}
+
+.copyright{ background: #333; padding: 20px 0;  margin-top: 30px ;font-size: 18px ;}
+/*End Sectio Footer*/

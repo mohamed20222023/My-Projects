@@ -1,0 +1,85 @@
+/*Start Mobile Phone Screen*/
+
+@media(max-width:767px){
+    .testimonials .carousel-indicators{
+        width: 100%;
+        margin-left: -50%;
+        top: 238px;
+    }
+    
+    .price_table{
+        margin-top: 50px !important;
+    }
+    
+    .subscribe input{
+        margin-bottom: 20px ;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a{
+        padding-top: 10px ;
+        padding-bottom: 10px ;
+    }
+    
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse{
+        max-height: none;
+    }
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2,
+    .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3,
+    .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4,
+    .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+    .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7,
+    .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8,
+    .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9,
+    .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+    .col-xs-11, .col-sm-11, .col-md-11,.col-lg-11, .col-xs-12,
+    .col-sm-12, .col-md-12, .col-lg-12{
+        text-align: center;
+    }
+}
+
+/*End Mobile Phone Screen*/
+
+/*Start Small Screen*/
+
+@media(min-width:768px){
+    .testimonials .carousel-indicators{
+        top: 264px !important;
+    }
+    
+    .price_table{
+        margin-top: 220px !important;
+    }
+    .subscribe input{
+        width: 300px !important ;
+    }    
+}
+
+
+@media(min-width:992px){
+    .testimonials .carousel-indicators{
+        top: 240px !important;
+    }
+    
+    .price_table{
+        margin-top: 220px !important;
+    }
+}
+
+/*End Small Screen*/
+
+
+/*Start Larg Screen*/
+
+@media(min-width:1200px){
+    
+    .testimonials .carousel-indicators{
+        top: 215px !important;
+    }
+    
+    .price_table{
+        margin-top: 50px !important;
+    }
+}
+
+/*End Larg Screen*/

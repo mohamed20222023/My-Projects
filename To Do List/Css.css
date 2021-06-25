@@ -1,0 +1,134 @@
+
+/*
+#275d6e لون القلم 
+#6ab7ca لون الديف الجديد
+#f8ce6f لون اول نص 
+#7bdb7c لون تاني نص 
+#4e9be0 لون الظل 
+
+*/
+
+
+body {
+	background-color:#469fbc;
+	font-family:cursive;
+}
+
+.container {
+	margin: 5% 20% ;
+	text-align: center;
+}
+
+h1{
+	font-size: 50px ; 
+	color: white;
+	margin: 10px 0 ;
+}
+
+p:first-of-type {
+	color: #f8ce6f; 
+	font-size: 25px;
+}
+
+p:last-of-type {
+	color: #275d6e; 
+	font-size: 25px;
+}
+
+p:nth-of-type(2) {
+	color: #7bdb7c; 
+	font-size: 25px;
+}
+
+form{
+	margin-top: 7%;
+	overflow: hidden;
+	
+}
+
+.input1 {
+	font-size: 25px;
+	width: 89%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+	float: left;
+	padding: 5px 5px 5px 10px;
+	font-family:cursive;
+	margin-bottom: 30px;
+}
+
+.input1:focus{
+	box-shadow: 5px 5px 5px 2px #4e9be0,
+				-5px -5px 5px 2px #4e9be0
+}
+
+.pencil{ 
+	text-align: center;
+	width: 5%;
+	height: 30px;
+	font-size: 22px;
+    background-color: #275d6e;
+    color: #469fbc;
+    padding: 10px;
+    float: left;
+    margin-left: 15px;
+    border-radius: 10px;
+	cursor: pointer;
+}
+
+
+.pencil:active{
+	font-size: 20px;
+}
+
+.paragragh {
+	background-color: red ; 
+	color: white !important;
+	padding: 10px ; 
+	border-radius: 20px ;
+	display: none;
+}
+
+.main{
+	width: 90% ;
+	margin: 20px auto 0 auto;
+	background-color: #6ab7ca;
+	border:3px solid #275d6e;
+	border-radius: 10px ;
+	padding: 10px;
+	font-size: 25px;
+	overflow: hidden;
+}
+
+
+.left{
+	float: left;
+	color: white;
+	font-size: 25px;
+}
+
+.right {
+	font-size: 25px;
+	float: right;
+	margin: 0 5% ;
+	color: #275d6e;
+	cursor: pointer;
+}
+
+
+.bb {
+	width: 20px ; 
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
